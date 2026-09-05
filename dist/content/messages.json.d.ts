@@ -1,0 +1,57 @@
+declare const _default: {
+   "error": {
+      "somethingWentWrong": {
+         "summary": "Something went wrong",
+         "detail": "Sorry but something isn't working as expected! Please try again later. We have been notified of the issue."
+      }
+   },
+   "email": {
+      "requestChange": {
+         "success": {
+            "summary": "Email change requested",
+            "detail": "We have sent a confirmation email to your new email address. Please check your inbox and follow the instructions to complete the email change."
+         },
+         "error": {
+            "sameEmail": {
+               "summary": "No changes have been made",
+               "detail": "The new email address you provided is the same as the current one. Please enter a different email address."
+            }
+         }
+      },
+      "updateEmail": {
+         "success": {
+            "summary": "Email updated successfully",
+            "detail": "Your email address has been updated successfully."
+         },
+         "error": {
+            "invalidToken": {
+               "summary": "Invalid token",
+               "detail": "The token provided for updating your email address is invalid or has expired. Please request a new email change."
+            }
+         }
+      }
+   },
+   "account": {
+      "delete": {
+         "error": {
+            "summary": "We failed to delete your account!",
+            "detail": "Something went wrong while deleting your account. Please try again or contact us to let us know about this issue."
+         },
+         "success": {
+            "summary": "Your account has been deleted",
+            "detail": "We're sorry to see you go! Your account and all associated data have been successfully deleted. If you change your mind, feel free to create a new account anytime."
+         }
+      }
+   },
+   "captcha": {
+      "verification": {
+         "error": {
+            "summary": "Captcha verification failed",
+            "detail": "We were unable to verify the captcha. Please try again."
+         }
+      }
+   }
+}
+;
+
+export default _default;

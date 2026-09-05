@@ -1,0 +1,26 @@
+{
+   "extends": "@vue/tsconfig/tsconfig.dom.json",
+   "include": [
+      "env.d.ts",
+      "src/**/*",
+      "src/**/*.vue",
+      "src/**/*.ts",
+      "auto-imports.d.ts",
+      "components.d.ts"
+   ],
+   "exclude": ["src/**/__tests__/*", "src/**/*.stories.ts"],
+   "compilerOptions": {
+      "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "bundler",
+      "paths": {
+         "@/*": ["./src/*"],
+         // Nuxt UI's own theme-type virtual module, for auto-completion on the ui() plugin options.
+         "#build/ui/*": ["./node_modules/.nuxt-ui/ui/*"],
+         "*": ["./node_modules/*"] // Ensure node_modules are correctly referenced
+      },
+      "types": ["node", "vite/client"],
+      "lib": ["ESNext", "DOM"]
+   }
+}

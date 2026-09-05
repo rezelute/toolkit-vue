@@ -1,0 +1,34 @@
+@import "./spacing.token.css";
+
+/* Vertical Stack */
+/*-------------------*/
+@utility vstack-xl {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-stack-xl);
+}
+@utility vstack-lg {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-stack-lg);
+}
+@utility vstack-md {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-stack-md);
+}
+@utility vstack-sm {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-stack-sm);
+}
+@utility vstack-page {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-stack-xl);
+}
+@utility vstack-form {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-stack-form);
+}

@@ -1,0 +1,30 @@
+@layer utilities {
+   .container {
+      margin-inline: auto;
+      padding-inline: 1rem;
+   }
+
+   @media (min-width: 640px) {
+      .container {
+         padding-inline: 1.5rem;
+      }
+   }
+
+   @media (min-width: 1024px) {
+      .container {
+         padding-inline: 2rem;
+      }
+   }
+}
+
+/* manually trigger the dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Tailwind's preflight resets buttons to their native cursor (default, not pointer) — restore
+   the pointer cursor convention on enabled interactive elements. */
+@layer base {
+   button:not(:disabled),
+   [role="button"]:not(:disabled) {
+      cursor: pointer;
+   }
+}

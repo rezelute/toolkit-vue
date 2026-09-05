@@ -1,0 +1,12 @@
+{
+   "recommendations": [
+      "Vue.volar",
+      "vitest.explorer",
+      "dariofuzinato.vue-peek", // peek at vue files without opening them - https://marketplace.visualstudio.com/items?itemName=dariofuzinato.vue-peek
+      "sdras.vue-vscode-snippets", // https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets
+      "mrmlnc.vscode-duplicate", // right click and duplicate files - https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-duplicate
+      "shardulm94.trailing-spaces", // highlight trailing spaces - https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+   ]
+}

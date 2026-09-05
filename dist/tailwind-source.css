@@ -1,0 +1,7 @@
+/* Only meaningful once copied into dist/ (see vite.config.ts) — it ships alongside
+   dist/components/index.js there. Tells a consumer's Tailwind build to also scan this package's
+   own compiled component bundle for classes; without it, a class used only inside a component
+   here (not also used elsewhere in the consumer's own app source) never gets generated — same
+   reason main.css needs a @source for @nuxt/ui's own dist. Import this alongside
+   tailwind-setup.css. */
+@source "./components/index.js";

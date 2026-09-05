@@ -1,0 +1,4 @@
+/* Backward-compatible aggregator — import the split files directly for more control */
+@import "./tailwind-utilities.css";
+@import "./tailwind-setup.css";
+@import "./tailwind-source.css";

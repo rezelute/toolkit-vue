@@ -1,9 +1,0 @@
-/* Source of truth for spacing tokens — plain CSS vars, no Tailwind syntax. Works whether or not
-   Tailwind is installed. tailwind-utilities.css reads these; it never defines its own values. */
-:root {
-   --spacing-stack-sm: 1rem;
-   --spacing-stack-md: 1.5rem;
-   --spacing-stack-lg: 2.5rem;
-   --spacing-stack-xl: 3rem;
-   --spacing-stack-form: 1.25rem;
-}

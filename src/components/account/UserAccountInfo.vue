@@ -2,7 +2,7 @@
    <UCard>
       <template #header>
          <slot name="header">
-            <Heading tag="h2" textSize="md" class="heading-mb-sm">{{ headingText }}</Heading>
+            <h2 class="heading-lg heading-mb-sm">{{ headingText }}</h2>
          </slot>
       </template>
       <dl class="flex flex-col m-0 p-0">
@@ -44,8 +44,6 @@
 </template>
 
 <script setup lang="ts">
-import Heading from "../ui/Heading.vue"
-
 // props & slots
 // -----------------------------------------
 defineSlots<{

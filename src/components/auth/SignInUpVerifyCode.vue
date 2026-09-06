@@ -15,7 +15,7 @@
 
       <UCard class="max-w-xl w-full mx-auto">
          <template #header>
-            <Heading tag="h1" textSize="md" class="heading-mb-sm">{{ title }}</Heading>
+            <h1 class="heading-lg heading-mb-sm">{{ title }}</h1>
          </template>
          <form class="vstack-md" @submit.prevent>
             <!-- Code input & Submit -->
@@ -75,7 +75,6 @@
 
 <script setup lang="ts">
 import { computed, ref } from "vue"
-import Heading from "../ui/Heading.vue"
 
 // props, emits & slots
 // -----------------------------------------

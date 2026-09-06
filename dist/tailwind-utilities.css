@@ -1,4 +1,4 @@
-@import "./spacing.token.css";
+@import "./tokens.css";
 
 /* Vertical Stack */
 /*-------------------*/
@@ -31,4 +31,41 @@
    display: flex;
    flex-direction: column;
    gap: var(--spacing-stack-form);
+}
+
+/* Heading */
+/*-------------------*/
+/* Size/weight/tracking only — no margin baked in, see heading-mb-* below. Tree-shaken like
+   every other @utility here: a consumer only pays for the sizes they actually use. */
+@utility heading-2xl {
+   font-size: var(--heading-2xl-size);
+   line-height: var(--heading-2xl-line-height);
+   font-weight: var(--heading-2xl-weight);
+   letter-spacing: var(--heading-2xl-tracking);
+}
+@utility heading-xl {
+   font-size: var(--heading-xl-size);
+   line-height: var(--heading-xl-line-height);
+   font-weight: var(--heading-xl-weight);
+   letter-spacing: var(--heading-xl-tracking);
+}
+@utility heading-lg {
+   font-size: var(--heading-lg-size);
+   line-height: var(--heading-lg-line-height);
+   font-weight: var(--heading-lg-weight);
+   letter-spacing: var(--heading-lg-tracking);
+}
+
+/* Heading margin */
+/*-------------------*/
+/* Separate from heading-* above — margin doesn't track heading size in this app today, so it's
+   applied per-instance alongside a heading-* class, not baked into it. */
+@utility heading-mb-sm {
+   margin-bottom: var(--spacing-heading-mb-sm);
+}
+@utility heading-mb-md {
+   margin-bottom: var(--spacing-heading-mb-md);
+}
+@utility heading-mb-lg {
+   margin-bottom: var(--spacing-heading-mb-lg);
 }

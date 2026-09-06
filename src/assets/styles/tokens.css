@@ -1,0 +1,71 @@
+@import "./primitives.css";
+
+/* Semantic layer — named by purpose, not magnitude. This is what utilities/components
+   actually consume; nothing here should be referenced by a raw primitive name. */
+
+/* -- SPACING ---------------------- */
+
+@theme {
+   /* Gap between stacked children — consumed by the vstack-* utilities. */
+   --spacing-stack-3xs: var(--spacing-3xs);
+   --spacing-stack-2xs: var(--spacing-2xs);
+   --spacing-stack-sm: var(--spacing-sm);
+   --spacing-stack-md: var(--spacing-md);
+   --spacing-stack-lg: var(--spacing-lg);
+   --spacing-stack-xl: var(--spacing-xl);
+
+   /* Gap between fields in a form. */
+   --spacing-stack-form: var(--spacing-sm);
+
+   /* Space after a heading. */
+   --spacing-heading-mb-sm: var(--spacing-2xs); /* heading-lg - tight to following body text */
+   --spacing-heading-mb-md: var(--spacing-sm); /* heading-xl - standard section heading */
+   --spacing-heading-mb-lg: var(--spacing-md); /* heading-2xl - page title, more breathing room */
+}
+
+/* -- TYPOGRAPHY ---------------------- */
+
+/* Heading size/weight/tracking, named by visual size rather than HTML heading level —
+   decouples "how big it looks" from "which <h> tag is correct for the document outline".
+   Each size's mobile value sits in @theme; the @media block right after it overrides just
+   size/line-height for the desktop step (can't live inside @theme itself — that's a
+   build-time directive, not one that can be scoped to a media query). */
+
+@theme {
+   --heading-2xl-size: var(--text-2xl);
+   --heading-2xl-line-height: var(--text-2xl--line-height);
+   --heading-2xl-weight: var(--font-weight-semibold);
+   --heading-2xl-tracking: var(--tracking-tight);
+}
+@media (min-width: 48rem) {
+   :root {
+      --heading-2xl-size: var(--text-4xl);
+      --heading-2xl-line-height: var(--text-4xl--line-height);
+   }
+}
+
+@theme {
+   --heading-xl-size: var(--text-xl);
+   --heading-xl-line-height: var(--text-xl--line-height);
+   --heading-xl-weight: var(--font-weight-semibold);
+   --heading-xl-tracking: var(--tracking-tight);
+}
+@media (min-width: 48rem) {
+   :root {
+      --heading-xl-size: var(--text-3xl);
+      --heading-xl-line-height: var(--text-3xl--line-height);
+   }
+}
+
+@theme {
+   --heading-lg-size: var(--text-lg);
+   --heading-lg-line-height: var(--text-lg--line-height);
+   --heading-lg-weight: var(--font-weight-medium);
+   --heading-lg-tracking: var(--tracking-normal);
+}
+@media (min-width: 48rem) {
+   :root {
+      --heading-lg-size: var(--text-xl);
+      --heading-lg-line-height: var(--text-xl--line-height);
+   }
+}

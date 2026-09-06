@@ -3,7 +3,7 @@
    <UCard>
       <template #header>
          <slot name="header">
-            <Heading tag="h2" textSize="md" class="heading-mb-sm">{{ headingText }}</Heading>
+            <h2 class="heading-lg heading-mb-sm">{{ headingText }}</h2>
          </slot>
       </template>
       <div v-if="!props.isDeleteEmailSent" class="vstack-form">
@@ -32,7 +32,6 @@
 
 <script setup lang="ts">
 import ActionConfirmMsg from "../feedback/ActionConfirmMsg.vue"
-import Heading from "../ui/Heading.vue"
 
 // props, emits & slots
 // -----------------------------------------

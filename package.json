@@ -42,8 +42,11 @@
       "./tailwind-source.css": {
          "default": "./dist/tailwind-source.css"
       },
-      "./spacing.token.css": {
-         "default": "./dist/spacing.token.css"
+      "./primitives.css": {
+         "default": "./dist/primitives.css"
+      },
+      "./tokens.css": {
+         "default": "./dist/tokens.css"
       },
       "./toolkit-vue.css": {
          "default": "./dist/toolkit-vue.css"

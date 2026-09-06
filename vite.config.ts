@@ -42,7 +42,8 @@ export default defineConfig({
                   { src: "src/assets/styles/tailwind-setup.css", dest: "dist" },
                   { src: "src/assets/styles/tailwind-utilities.css", dest: "dist" },
                   { src: "src/assets/styles/tailwind-source.css", dest: "dist" },
-                  { src: "src/assets/styles/spacing.token.css", dest: "dist" },
+                  { src: "src/assets/styles/primitives.css", dest: "dist" },
+                  { src: "src/assets/styles/tokens.css", dest: "dist" },
                ],
                verbose: true, // Optional: logs output
                hook: "writeBundle", // Ensures it runs after build output

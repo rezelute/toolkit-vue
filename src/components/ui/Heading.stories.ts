@@ -1,14 +1,14 @@
 import type { Meta, StoryObj } from "@storybook/vue3-vite"
-import Heading from "./Heading.vue"
 
+/* No component to bind to — heading-lg/xl/2xl are plain CSS utility classes (see
+   tailwind-utilities.css), applied directly to whatever native tag fits the document outline. */
 const meta = {
    title: "Typography/Heading",
-   component: Heading,
    tags: ["autodocs"],
    argTypes: {
-      textSize: {
+      size: {
          control: { type: "select" },
-         options: ["sm", "md", "lg", "xl", "2xl", "3xl"],
+         options: ["lg", "xl", "2xl"],
       },
       tag: {
          control: { type: "select" },
@@ -19,40 +19,30 @@ const meta = {
       },
    },
    args: {
-      textSize: "lg",
+      size: "lg",
       tag: "h2",
       default: "Heading Text",
    },
-} satisfies Meta<typeof Heading>
+} satisfies Meta
 
 export default meta
 
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
-   args: {
-      textSize: "lg",
-      tag: "h2",
-      default: "Heading Text",
-   },
    render: (args) => ({
-      components: { Heading },
       setup: () => ({ args }),
-      template: `<Heading tag="h1" v-bind="args">{{ args.default }}</Heading>`,
+      template: `<component :is="args.tag" :class="'heading-' + args.size">{{ args.default }}</component>`,
    }),
 }
 
 export const AllSizes: Story = {
    render: () => ({
-      components: { Heading },
       template: `
       <div>
-        <Heading tag="h1" textSize="sm">Small Heading</Heading>
-        <Heading tag="h1" textSize="md">Medium Heading</Heading>
-        <Heading tag="h1" textSize="lg">Large Heading</Heading>
-        <Heading tag="h1" textSize="xl">XL Heading</Heading>
-        <Heading tag="h1" textSize="2xl">2XL Heading</Heading>
-        <Heading tag="h1" textSize="3xl">3XL Heading</Heading>
+        <h1 class="heading-lg">Large Heading</h1>
+        <h1 class="heading-xl">XL Heading</h1>
+        <h1 class="heading-2xl">2XL Heading</h1>
       </div>
     `,
    }),
@@ -60,13 +50,12 @@ export const AllSizes: Story = {
 
 export const CustomTag: Story = {
    args: {
-      textSize: "xl",
+      size: "xl",
       tag: "h1",
       default: "Custom Tag H1 Heading",
    },
    render: (args) => ({
-      components: { Heading },
       setup: () => ({ args }),
-      template: `<Heading tag="h1" v-bind="args">{{ args.default }}</Heading>`,
+      template: `<component :is="args.tag" :class="'heading-' + args.size">{{ args.default }}</component>`,
    }),
 }

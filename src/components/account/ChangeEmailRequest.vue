@@ -2,7 +2,7 @@
    <UCard>
       <template #header>
          <slot name="header">
-            <Heading tag="h2" textSize="md" class="heading-mb-sm">{{ headingText }}</Heading>
+            <h2 class="heading-lg heading-mb-sm">{{ headingText }}</h2>
          </slot>
       </template>
       <!-- Change email form -->
@@ -42,7 +42,6 @@ import { reactive, ref } from "vue"
 import { z } from "zod"
 import { emailSchema } from "@/utils"
 import ActionConfirmMsg from "../feedback/ActionConfirmMsg.vue"
-import Heading from "../ui/Heading.vue"
 
 // props, emits & slots
 // -----------------------------------------

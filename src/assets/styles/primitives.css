@@ -1,0 +1,52 @@
+/* Raw scale values. Not consumed directly outside tokens.css — see tokens.css for the semantic layer.*/
+
+@theme {
+   /* Tailwind's own multiplier - drives p-4, gap-2, etc. Untouched. */
+   --spacing: 0.25rem;
+
+   --spacing-3xs: 0.25rem; /* 4px  */
+   --spacing-2xs: 0.5rem; /* 8px  */
+   --spacing-xs: 0.75rem; /* 12px */
+   --spacing-sm: 1rem; /* 16px */
+   --spacing-md: 1.5rem; /* 24px */
+   --spacing-lg: 2rem; /* 32px */
+   --spacing-xl: 3rem; /* 48px */
+   --spacing-2xl: 4rem; /* 64px */
+}
+
+@theme {
+   /* Pins Tailwind's current default type scale so a future Tailwind upgrade (or removal)
+      doesn't silently change this project's headings. */
+   --text-xs: 0.75rem;
+   --text-xs--line-height: 1rem;
+
+   --text-sm: 0.875rem;
+   --text-sm--line-height: 1.25rem;
+
+   --text-base: 1rem;
+   --text-base--line-height: 1.5rem;
+
+   --text-lg: 1.125rem;
+   --text-lg--line-height: 1.75rem;
+
+   --text-xl: 1.25rem;
+   --text-xl--line-height: 1.75rem;
+
+   --text-2xl: 1.5rem;
+   --text-2xl--line-height: 2rem;
+
+   --text-3xl: 1.875rem;
+   --text-3xl--line-height: 2.25rem;
+
+   --text-4xl: 2.25rem;
+   --text-4xl--line-height: 2.5rem;
+
+   --font-weight-normal: 400;
+   --font-weight-medium: 500;
+   --font-weight-semibold: 600;
+   --font-weight-bold: 700;
+
+   --tracking-tight: -0.025em;
+   --tracking-normal: 0em;
+   --tracking-wide: 0.025em;
+}

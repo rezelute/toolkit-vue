@@ -1,9 +1,9 @@
 <template>
    <UCard class="max-w-xl w-full">
       <template #header>
-         <Heading tag="h1" textSize="lg" class="heading-mb-sm">
+         <h1 class="heading-xl heading-mb-sm">
             {{ title }}
-         </Heading>
+         </h1>
       </template>
       <!-- Notice banner (e.g. invite-only message, maintenance warning) -->
       <slot name="notice" />
@@ -58,7 +58,6 @@
 import { reactive, ref } from "vue"
 import { z } from "zod"
 import { emailSchema } from "@/utils"
-import Heading from "../ui/Heading.vue"
 
 // props, emits & slots
 // -----------------------------------------

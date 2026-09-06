@@ -33,7 +33,7 @@
          <div v-else-if="showError" key="error" class="flex items-center justify-center">
             <slot name="error">
                <!-- Fallback error if no slot provided -->
-               <AppInfoError :errorText="errorText" class="max-w-xl" />
+               <AppErrorInfo :errorText="errorText" class="max-w-xl" />
             </slot>
          </div>
 
@@ -46,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-import AppInfoError from "../feedback/AppErrorInfo.vue"
+import AppErrorInfo from "../feedback/AppErrorInfo.vue"
 
 export interface PageLoaderProps {
    showLoading?: boolean

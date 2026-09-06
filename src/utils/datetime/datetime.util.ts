@@ -87,10 +87,3 @@ export function formatRelativeDate(
    if (absoluteMs < YEAR) return formatAs(MONTH, "month")
    return formatAs(YEAR, "year")
 }
-
-// -----------------------------------------
-
-export default {
-   formatDateTime,
-   formatRelativeDate,
-}

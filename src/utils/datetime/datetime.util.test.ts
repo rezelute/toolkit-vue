@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest"
-import { formatDateTime, formatRelativeDate } from "./datetime.util"
+import { formatDate, formatDateTime, formatRelativeDate } from "./datetime.util"
 
 describe("formatDateTime", () => {
    it("formats a Date object in en-GB by default", () => {
@@ -22,6 +22,38 @@ describe("formatDateTime", () => {
    it("respects a custom locale", () => {
       const result = formatDateTime(new Date(2024, 0, 15, 14, 30), "en-US")
       expect(result).toContain("1/15/2024")
+   })
+})
+
+describe("formatDate", () => {
+   it("formats with the default 'medium' style in en-GB", () => {
+      expect(formatDate(new Date(2024, 0, 15))).toBe("15 Jan 2024")
+   })
+
+   it("formats with the 'short' style", () => {
+      expect(formatDate(new Date(2024, 0, 15), "short")).toBe("15 Jan")
+   })
+
+   it("formats with the 'long' style", () => {
+      expect(formatDate(new Date(2024, 0, 15), "long")).toBe("15 January 2024")
+   })
+
+   it("accepts a date string", () => {
+      expect(formatDate("2024-06-10T00:00:00")).toContain("Jun 2024")
+   })
+
+   it("accepts a timestamp number", () => {
+      const ts = new Date(2024, 0, 15).getTime()
+      expect(formatDate(ts)).toBe("15 Jan 2024")
+   })
+
+   it("throws on invalid date", () => {
+      expect(() => formatDate("not-a-date")).toThrow("Invalid date")
+   })
+
+   it("respects a custom locale", () => {
+      const result = formatDate(new Date(2024, 0, 15), "medium", "fr-FR")
+      expect(result).toBe("15 janv. 2024")
    })
 })
 

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/vue3-vite"
-import ScrollToTop from "./scrollToTop.vue"
+import ScrollToTop from "./ScrollToTop.vue"
 
 const meta = {
    title: "Feedback/ScrollToTop",

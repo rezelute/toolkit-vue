@@ -1,5 +1,5 @@
 export { default as SiteNavigation } from './ui/SiteNavigation.vue';
-export { default as ScrollToTop } from './ui/scrollToTop.vue';
+export { default as ScrollToTop } from './ui/ScrollToTop.vue';
 export { default as PageErrorIcon } from './ui/PageErrorIcon.vue';
 export { default as SectionPattern } from './ui/SectionPattern.vue';
 export { default as PageLoader } from './loading/PageLoader.vue';

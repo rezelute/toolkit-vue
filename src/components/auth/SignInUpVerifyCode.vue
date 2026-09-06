@@ -17,7 +17,7 @@
          <template #header>
             <h1 class="heading-lg heading-mb-sm">{{ title }}</h1>
          </template>
-         <form class="vstack-md" @submit.prevent>
+         <form class="vstack-md" @submit.prevent="onCodeSubmit">
             <!-- Code input & Submit -->
             <div class="vstack-form">
                <!-- Description text (e.g. explain the code and its expiry time) -->
@@ -46,7 +46,6 @@
                   :loading="isSubmittingCode"
                   :disabled="isResendingCode"
                   data-test="auth-verify-button"
-                  @click="onCodeSubmit"
                />
             </div>
 

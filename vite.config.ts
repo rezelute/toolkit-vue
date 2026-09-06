@@ -25,7 +25,6 @@ export default defineConfig({
          entry: {
             "components/index": path.resolve(__dirname, "src/components/index.ts"),
             "stores/index": path.resolve(__dirname, "src/stores/index.ts"),
-            "composables/index": path.resolve(__dirname, "src/composables/index.ts"),
             "utils/index": path.resolve(__dirname, "src/utils/index.ts"),
             "content/index": path.resolve(__dirname, "src/content/index.ts"),
             "types/index": path.resolve(__dirname, "src/types/index.ts"),
@@ -105,7 +104,6 @@ export default defineConfig({
             // limit declaration generation to public entry points only — without this, dts would process the whole tsconfig include
             "src/components",
             "src/stores",
-            "src/composables",
             "src/utils",
             "src/content",
             "src/types",

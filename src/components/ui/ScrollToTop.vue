@@ -35,7 +35,7 @@ onUnmounted(() => {
 .scroll-to-top-btn {
    position: fixed;
    bottom: 0.5rem;
-   right: 0.5rem;
+   inset-inline-end: 0.5rem;
    z-index: 1000;
    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }

@@ -1,7 +1,7 @@
 <template>
    <UCard class="p-2 sm:p-10 w-full">
       <template #header>
-         <h1 class="text-2xl sm:text-3xl font-semibold text-highlighted text-center">Oops!</h1>
+         <h1 class="heading-2xl text-highlighted text-center">Oops!</h1>
       </template>
       <div class="text-center">
          <div class="mx-auto">
@@ -15,7 +15,7 @@
             }}
          </p>
 
-         <UButton label="Retry" type="button" class="btn mt-10 w-fit" @click="reloadPage" />
+         <UButton label="Retry" type="button" class="mt-10 w-fit" @click="reloadPage" />
       </div>
    </UCard>
 </template>

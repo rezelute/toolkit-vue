@@ -15,10 +15,6 @@
          "types": "./dist/stores/index.d.ts",
          "import": "./dist/stores/index.js"
       },
-      "./composables": {
-         "types": "./dist/composables/index.d.ts",
-         "import": "./dist/composables/index.js"
-      },
       "./utils": {
          "types": "./dist/utils/index.d.ts",
          "import": "./dist/utils/index.js"

@@ -5,7 +5,7 @@
             <div class="flex items-center h-full py-2 shrink-0 overflow-hidden">
                <slot name="logo" />
             </div>
-            <div class="flex items-center gap-3 ml-auto">
+            <div class="flex items-center gap-3 ms-auto">
                <slot name="action-items" />
                <UButton
                   icon="i-lucide-menu"
@@ -42,7 +42,7 @@
             icon="i-lucide-x"
             variant="ghost"
             color="neutral"
-            class="ml-auto rounded-full"
+            class="ms-auto rounded-full"
             square
             aria-label="Close navigation menu"
             @click="closeDrawer"

@@ -7536,7 +7536,7 @@ var Xc = {
 }, sl = {
 	"aria-label": "Top navigation bar",
 	class: "flex items-center h-full gap-4 p-1"
-}, cl = { class: "flex items-center h-full py-2 shrink-0 overflow-hidden" }, ll = { class: "flex items-center gap-3 ml-auto" }, ul = {
+}, cl = { class: "flex items-center h-full py-2 shrink-0 overflow-hidden" }, ll = { class: "flex items-center gap-3 ms-auto" }, ul = {
 	"aria-label": "Main navigation",
 	class: "flex flex-col gap-1"
 }, dl = {
@@ -7619,7 +7619,7 @@ var Xc = {
 						icon: "i-lucide-x",
 						variant: "ghost",
 						color: "neutral",
-						class: "ml-auto rounded-full",
+						class: "ms-auto rounded-full",
 						square: "",
 						"aria-label": "Close navigation menu",
 						onClick: i
@@ -7631,7 +7631,7 @@ var Xc = {
 		};
 	}
 }), pl = /*@__PURE__*/ _({
-	__name: "scrollToTop",
+	__name: "ScrollToTop",
 	setup(e) {
 		let t = F(!1);
 		function n() {
@@ -7663,7 +7663,7 @@ var Xc = {
 	let n = e.__vccOpts || e;
 	for (let [e, r] of t) n[e] = r;
 	return n;
-}, hl = /*#__PURE__*/ ml(pl, [["__scopeId", "data-v-d9fcf547"]]), gl = {}, _l = {
+}, hl = /*#__PURE__*/ ml(pl, [["__scopeId", "data-v-8124fde5"]]), gl = {}, _l = {
 	x: "0px",
 	y: "0px",
 	viewBox: "0 0 500 450",
@@ -7766,7 +7766,7 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 					opacity: "0.6"
 				}
 			})], -1)
-		], 64)) : e.pattern === "noise" ? (M(), d(r, { key: 4 }, [n[10] ||= p("<div class=\"absolute inset-0 pointer-events-none opacity-25\" data-v-202991c5><svg class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\" data-v-202991c5><filter id=\"section-noise-filter\" data-v-202991c5><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.72\" numOctaves=\"4\" stitchTiles=\"stitch\" data-v-202991c5></feTurbulence><feColorMatrix type=\"saturate\" values=\"0\" data-v-202991c5></feColorMatrix></filter><rect width=\"100%\" height=\"100%\" filter=\"url(#section-noise-filter)\" opacity=\"0.6\" data-v-202991c5></rect></svg></div><div class=\"absolute inset-0 pointer-events-none\" style=\"background:radial-gradient(\n                     ellipse at 30% 40%,\n                     color-mix(in srgb, var(--ui-color-primary-600) 35%, transparent) 0%,\n                     transparent 55%\n                  ),\n                  radial-gradient(\n                     ellipse at 70% 65%,\n                     color-mix(in srgb, var(--ui-color-primary-500) 25%, transparent) 0%,\n                     transparent 50%\n                  );\" data-v-202991c5></div>", 2)], 64)) : e.pattern === "geometric" ? (M(), d("div", Sl, [...n[11] ||= [p("<div class=\"absolute -top-40 -right-40 w-[620px] h-[620px] rounded-full\" style=\"border:2px solid color-mix(in srgb, var(--ui-color-primary-400) 18%, transparent);\" data-v-202991c5></div><div class=\"absolute -top-16 -right-16 w-[380px] h-[380px] rounded-full\" style=\"border:1px solid color-mix(in srgb, var(--ui-color-primary-400) 11%, transparent);\" data-v-202991c5></div><div class=\"absolute top-20 right-32 w-[220px] h-[220px] rounded-full\" style=\"border:1px solid color-mix(in srgb, var(--ui-color-primary-300) 8%, transparent);\" data-v-202991c5></div><div class=\"absolute -bottom-40 -left-40 w-[540px] h-[540px] rounded-full\" style=\"border:2px solid color-mix(in srgb, var(--ui-color-primary-500) 14%, transparent);\" data-v-202991c5></div><div class=\"absolute -bottom-16 -left-16 w-[320px] h-[320px] rounded-full\" style=\"border:1px solid color-mix(in srgb, var(--ui-color-primary-400) 9%, transparent);\" data-v-202991c5></div><div class=\"absolute top-1/4 right-1/4 w-[420px] h-[420px] rounded-full\" style=\"background:radial-gradient(\n                     circle,\n                     color-mix(in srgb, var(--ui-color-primary-500) 18%, transparent) 0%,\n                     transparent 60%\n                  );\" data-v-202991c5></div><div class=\"absolute bottom-1/4 left-1/4 w-[320px] h-[320px] rounded-full\" style=\"background:radial-gradient(\n                     circle,\n                     color-mix(in srgb, var(--ui-color-primary-600) 14%, transparent) 0%,\n                     transparent 60%\n                  );\" data-v-202991c5></div>", 7)]])) : e.pattern === "synthwave" ? (M(), d("div", Cl, [...n[12] ||= [p("<div class=\"absolute top-0 left-0 right-0 h-2/3\" style=\"background-image:radial-gradient(\n                     circle,\n                     color-mix(in srgb, var(--ui-color-primary-200) 70%, white) 1px,\n                     transparent 1px\n                  );background-size:48px 48px;opacity:0.2;\" data-v-202991c5></div><div class=\"absolute top-0 left-0 right-0 h-3/5\" style=\"background:linear-gradient(\n                     to bottom,\n                     color-mix(in srgb, var(--ui-color-primary-950) 70%, transparent) 0%,\n                     transparent 100%\n                  );\" data-v-202991c5></div><div class=\"synthwave-grid-anim absolute left-0 right-0 bottom-0 h-[260px]\" style=\"background-image:linear-gradient(\n                        color-mix(in srgb, var(--ui-color-primary-500) 65%, transparent) 0.4px,\n                        transparent 1px\n                     ),\n                     linear-gradient(\n                        90deg,\n                        color-mix(in srgb, var(--ui-color-primary-500) 65%, transparent) 0.4px,\n                        transparent 1px\n                     );background-size:80px 40px;transform:perspective(280px) rotateX(25deg);transform-origin:top center;-webkit-mask-image:linear-gradient(\n                     to top,\n                     rgba(0, 0, 0, 0.6) 0%,\n                     rgba(0, 0, 0, 0.25) 40%,\n                     transparent 70%\n                  );mask-image:linear-gradient(\n                     to top,\n                     rgba(0, 0, 0, 0.6) 0%,\n                     rgba(0, 0, 0, 0.25) 40%,\n                     transparent 70%\n                  );\" data-v-202991c5></div><div class=\"absolute left-1/2 -translate-x-1/2 rounded-full overflow-hidden\" style=\"top:8%;width:110px;height:110px;background:linear-gradient(\n                     to bottom,\n                     var(--ui-color-primary-200),\n                     var(--ui-color-primary-500)\n                  );opacity:0.75;box-shadow:0 0 60px 20px\n                     color-mix(in srgb, var(--ui-color-primary-400) 45%, transparent);\" data-v-202991c5><div class=\"absolute inset-0\" style=\"background-image:repeating-linear-gradient(\n                        0deg,\n                        transparent 0px,\n                        transparent 7px,\n                        color-mix(in srgb, var(--ui-color-primary-950) 45%, transparent) 7px,\n                        color-mix(in srgb, var(--ui-color-primary-950) 45%, transparent) 8px\n                     );\" data-v-202991c5></div></div><div class=\"absolute -left-20 top-1/3 w-64 h-64 rounded-full blur-3xl\" style=\"background:radial-gradient(\n                     circle,\n                     var(--ui-color-primary-600) 0%,\n                     transparent 70%\n                  );opacity:0.3;\" data-v-202991c5></div><div class=\"absolute -right-20 top-1/3 w-64 h-64 rounded-full blur-3xl\" style=\"background:radial-gradient(\n                     circle,\n                     var(--ui-color-primary-500) 0%,\n                     transparent 70%\n                  );opacity:0.25;\" data-v-202991c5></div>", 6)]])) : e.pattern === "diagonal" ? (M(), d(r, { key: 7 }, [
+		], 64)) : e.pattern === "noise" ? (M(), d(r, { key: 4 }, [n[10] ||= p("<div class=\"absolute inset-0 pointer-events-none opacity-25\" data-v-d9e40bde><svg class=\"w-full h-full\" xmlns=\"http://www.w3.org/2000/svg\" data-v-d9e40bde><filter id=\"section-noise-filter\" data-v-d9e40bde><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.72\" numOctaves=\"4\" stitchTiles=\"stitch\" data-v-d9e40bde></feTurbulence><feColorMatrix type=\"saturate\" values=\"0\" data-v-d9e40bde></feColorMatrix></filter><rect width=\"100%\" height=\"100%\" filter=\"url(#section-noise-filter)\" opacity=\"0.6\" data-v-d9e40bde></rect></svg></div><div class=\"absolute inset-0 pointer-events-none\" style=\"background:radial-gradient(\n                     ellipse at 30% 40%,\n                     color-mix(in srgb, var(--ui-color-primary-600) 35%, transparent) 0%,\n                     transparent 55%\n                  ),\n                  radial-gradient(\n                     ellipse at 70% 65%,\n                     color-mix(in srgb, var(--ui-color-primary-500) 25%, transparent) 0%,\n                     transparent 50%\n                  );\" data-v-d9e40bde></div>", 2)], 64)) : e.pattern === "geometric" ? (M(), d("div", Sl, [...n[11] ||= [p("<div class=\"absolute -top-40 -right-40 w-[620px] h-[620px] rounded-full\" style=\"border:2px solid color-mix(in srgb, var(--ui-color-primary-400) 18%, transparent);\" data-v-d9e40bde></div><div class=\"absolute -top-16 -right-16 w-[380px] h-[380px] rounded-full\" style=\"border:1px solid color-mix(in srgb, var(--ui-color-primary-400) 11%, transparent);\" data-v-d9e40bde></div><div class=\"absolute top-20 right-32 w-[220px] h-[220px] rounded-full\" style=\"border:1px solid color-mix(in srgb, var(--ui-color-primary-300) 8%, transparent);\" data-v-d9e40bde></div><div class=\"absolute -bottom-40 -left-40 w-[540px] h-[540px] rounded-full\" style=\"border:2px solid color-mix(in srgb, var(--ui-color-primary-500) 14%, transparent);\" data-v-d9e40bde></div><div class=\"absolute -bottom-16 -left-16 w-[320px] h-[320px] rounded-full\" style=\"border:1px solid color-mix(in srgb, var(--ui-color-primary-400) 9%, transparent);\" data-v-d9e40bde></div><div class=\"absolute top-1/4 right-1/4 w-[420px] h-[420px] rounded-full\" style=\"background:radial-gradient(\n                     circle,\n                     color-mix(in srgb, var(--ui-color-primary-500) 18%, transparent) 0%,\n                     transparent 60%\n                  );\" data-v-d9e40bde></div><div class=\"absolute bottom-1/4 left-1/4 w-[320px] h-[320px] rounded-full\" style=\"background:radial-gradient(\n                     circle,\n                     color-mix(in srgb, var(--ui-color-primary-600) 14%, transparent) 0%,\n                     transparent 60%\n                  );\" data-v-d9e40bde></div>", 7)]])) : e.pattern === "synthwave" ? (M(), d("div", Cl, [...n[12] ||= [p("<div class=\"absolute top-0 left-0 right-0 h-2/3\" style=\"background-image:radial-gradient(\n                     circle,\n                     color-mix(in srgb, var(--ui-color-primary-200) 70%, white) 1px,\n                     transparent 1px\n                  );background-size:48px 48px;opacity:0.2;\" data-v-d9e40bde></div><div class=\"absolute top-0 left-0 right-0 h-3/5\" style=\"background:linear-gradient(\n                     to bottom,\n                     color-mix(in srgb, var(--ui-color-primary-950) 70%, transparent) 0%,\n                     transparent 100%\n                  );\" data-v-d9e40bde></div><div class=\"synthwave-grid-anim absolute left-0 right-0 bottom-0 h-[260px]\" style=\"background-image:linear-gradient(\n                        color-mix(in srgb, var(--ui-color-primary-500) 65%, transparent) 0.4px,\n                        transparent 1px\n                     ),\n                     linear-gradient(\n                        90deg,\n                        color-mix(in srgb, var(--ui-color-primary-500) 65%, transparent) 0.4px,\n                        transparent 1px\n                     );background-size:80px 40px;transform:perspective(280px) rotateX(25deg);transform-origin:top center;-webkit-mask-image:linear-gradient(\n                     to top,\n                     rgba(0, 0, 0, 0.6) 0%,\n                     rgba(0, 0, 0, 0.25) 40%,\n                     transparent 70%\n                  );mask-image:linear-gradient(\n                     to top,\n                     rgba(0, 0, 0, 0.6) 0%,\n                     rgba(0, 0, 0, 0.25) 40%,\n                     transparent 70%\n                  );\" data-v-d9e40bde></div><div class=\"absolute left-1/2 -translate-x-1/2 rounded-full overflow-hidden\" style=\"top:8%;width:110px;height:110px;background:linear-gradient(\n                     to bottom,\n                     var(--ui-color-primary-200),\n                     var(--ui-color-primary-500)\n                  );opacity:0.75;box-shadow:0 0 60px 20px\n                     color-mix(in srgb, var(--ui-color-primary-400) 45%, transparent);\" data-v-d9e40bde><div class=\"absolute inset-0\" style=\"background-image:repeating-linear-gradient(\n                        0deg,\n                        transparent 0px,\n                        transparent 7px,\n                        color-mix(in srgb, var(--ui-color-primary-950) 45%, transparent) 7px,\n                        color-mix(in srgb, var(--ui-color-primary-950) 45%, transparent) 8px\n                     );\" data-v-d9e40bde></div></div><div class=\"absolute -left-20 top-1/3 w-64 h-64 rounded-full blur-3xl\" style=\"background:radial-gradient(\n                     circle,\n                     var(--ui-color-primary-600) 0%,\n                     transparent 70%\n                  );opacity:0.3;\" data-v-d9e40bde></div><div class=\"absolute -right-20 top-1/3 w-64 h-64 rounded-full blur-3xl\" style=\"background:radial-gradient(\n                     circle,\n                     var(--ui-color-primary-500) 0%,\n                     transparent 70%\n                  );opacity:0.25;\" data-v-d9e40bde></div>", 6)]])) : e.pattern === "diagonal" ? (M(), d(r, { key: 7 }, [
 			n[13] ||= f("div", { class: "absolute inset-0 pattern-diagonal pointer-events-none" }, null, -1),
 			n[14] ||= f("div", {
 				class: "absolute top-0 right-0 w-[400px] h-[400px] rounded-full pointer-events-none",
@@ -7828,7 +7828,7 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 			}, null, -1)
 		]])) : u("", !0)]));
 	}
-}), [["__scopeId", "data-v-202991c5"]]), El = {
+}), [["__scopeId", "data-v-d9e40bde"]]), El = {
 	slots: {
 		root: "rounded-lg overflow-hidden",
 		header: "p-4 sm:px-6",
@@ -7924,14 +7924,14 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 		return (n, r) => {
 			let i = il, a = Dl;
 			return M(), l(a, { class: "p-2 sm:p-10 w-full" }, {
-				header: U(() => [...r[0] ||= [f("h1", { class: "text-2xl sm:text-3xl font-semibold text-highlighted text-center" }, "Oops!", -1)]]),
+				header: U(() => [...r[0] ||= [f("h1", { class: "heading-2xl text-highlighted text-center" }, "Oops!", -1)]]),
 				default: U(() => [f("div", Ol, [
 					f("div", kl, [h(yl, { class: "mx-auto max-w-70 text-primary slow-pulse" })]),
 					f("p", Al, z(e.errorText || "Something went wrong! We have been notified about this automatically. Try refreshing the page or come back later."), 1),
 					h(i, {
 						label: "Retry",
 						type: "button",
-						class: "btn mt-10 w-fit",
+						class: "mt-10 w-fit",
 						onClick: t
 					})
 				])]),
@@ -7939,7 +7939,7 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 			});
 		};
 	}
-}), [["__scopeId", "data-v-d3549dad"]]), Ml = {
+}), [["__scopeId", "data-v-4bf7790b"]]), Ml = {
 	key: "loading",
 	class: "min-h-dvh flex items-center justify-center",
 	role: "status",
@@ -7990,7 +7990,7 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 			})]);
 		};
 	}
-}), [["__scopeId", "data-v-3aa83326"]]), zl = {
+}), [["__scopeId", "data-v-05e09025"]]), zl = {
 	key: 0,
 	class: "bar"
 }, Bl = /*#__PURE__*/ ml(/* @__PURE__ */ _({
@@ -8266,10 +8266,10 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 			_: 3
 		}, 16));
 	}
-}, Ul = { class: "dialog-loader" }, Wl = { class: "flex flex-col justify-center" }, Gl = {
+}, Ul = { class: "flex flex-col justify-center" }, Wl = {
 	key: 0,
 	class: "mt-8 text-center"
-}, Kl = /* @__PURE__ */ _({
+}, Gl = /* @__PURE__ */ _({
 	__name: "DialogLoader",
 	props: {
 		visible: { type: Boolean },
@@ -8279,22 +8279,22 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 	setup(e) {
 		return (t, n) => {
 			let r = qc, i = Hl;
-			return M(), d("div", Ul, [h(i, {
+			return M(), l(i, {
 				open: e.visible,
 				title: e.headerText,
 				close: !1,
 				dismissible: !1,
 				ui: { overlay: "bg-black/90" }
 			}, {
-				body: U(() => [f("div", Wl, [h(r, {
+				body: U(() => [f("div", Ul, [h(r, {
 					name: "i-lucide-loader-circle",
 					class: "size-8 animate-spin mx-auto"
-				}), e.loadingText ? (M(), d("div", Gl, z(e.loadingText), 1)) : u("", !0)])]),
+				}), e.loadingText ? (M(), d("div", Wl, z(e.loadingText), 1)) : u("", !0)])]),
 				_: 1
-			}, 8, ["open", "title"])]);
+			}, 8, ["open", "title"]);
 		};
 	}
-}), ql = { base: "animate-pulse rounded-md bg-elevated" }, Jl = {
+}), Kl = { base: "animate-pulse rounded-md bg-elevated" }, ql = {
 	__name: "Skeleton",
 	props: {
 		as: {
@@ -8312,7 +8312,7 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 	},
 	setup(e) {
 		let t = yr("skeleton", e), n = q(), r = c(() => $({
-			extend: ql,
+			extend: Kl,
 			...n.ui?.skeleton || {}
 		}));
 		return (e, n) => (M(), l(V(K), {
@@ -8327,7 +8327,7 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 			_: 3
 		}, 8, ["as", "class"]));
 	}
-}, Yl = /* @__PURE__ */ _({
+}, Jl = /* @__PURE__ */ _({
 	__name: "InputSkeleton",
 	props: {
 		isLoading: {
@@ -8340,7 +8340,7 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 	setup(e) {
 		let t = e;
 		return (n, r) => {
-			let i = Jl;
+			let i = ql;
 			return M(), d("div", null, [t.isLoading ? (M(), l(i, {
 				key: 1,
 				style: ee({
@@ -8350,13 +8350,13 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 			}, null, 8, ["style"])) : L(n.$slots, "default", {}, void 0, void 0, 0)]);
 		};
 	}
-}), Xl = { class: "heading-lg heading-mb-sm" }, Zl = { class: "flex flex-col m-0 p-0" }, Ql = { class: "flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-4 py-6 border-b border-default first:pt-0 last:border-b-0 last:pb-0" }, $l = { class: "min-w-0 m-0 text-default" }, eu = {
+}), Yl = { class: "heading-lg heading-mb-sm" }, Xl = { class: "flex flex-col m-0 p-0" }, Zl = { class: "flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-4 py-6 border-b border-default first:pt-0 last:border-b-0 last:pb-0" }, Ql = { class: "min-w-0 m-0 text-default" }, $l = {
 	key: 1,
 	class: "inline-block font-mono text-sm px-2 py-0.5 rounded bg-elevated text-primary break-all"
-}, tu = { class: "flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-4 py-6 border-b border-default first:pt-0 last:border-b-0 last:pb-0" }, nu = { class: "min-w-0 m-0" }, ru = {
+}, eu = { class: "flex flex-col gap-1 sm:flex-row sm:items-center sm:gap-4 py-6 border-b border-default first:pt-0 last:border-b-0 last:pb-0" }, tu = { class: "min-w-0 m-0" }, nu = {
 	key: 1,
 	class: "break-all"
-}, iu = /* @__PURE__ */ _({
+}, ru = /* @__PURE__ */ _({
 	__name: "UserAccountInfo",
 	props: {
 		userId: {},
@@ -8369,18 +8369,18 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 	},
 	setup(e) {
 		return (t, n) => {
-			let r = Jl, i = Dl;
+			let r = ql, i = Dl;
 			return M(), l(i, null, {
-				header: U(() => [L(t.$slots, "header", {}, () => [f("h2", Xl, z(e.headingText), 1)])]),
-				default: U(() => [f("dl", Zl, [f("div", Ql, [n[0] ||= f("dt", { class: "shrink-0 sm:w-20 text-sm font-semibold uppercase tracking-wide text-muted select-none" }, " User ID ", -1), f("dd", $l, [e.isLoading ? (M(), l(r, {
+				header: U(() => [L(t.$slots, "header", {}, () => [f("h2", Yl, z(e.headingText), 1)])]),
+				default: U(() => [f("dl", Xl, [f("div", Zl, [n[0] ||= f("dt", { class: "shrink-0 sm:w-20 text-sm font-semibold uppercase tracking-wide text-muted select-none" }, " User ID ", -1), f("dd", Ql, [e.isLoading ? (M(), l(r, {
 					key: 0,
 					style: { height: "1.2rem" },
 					class: "w-full sm:w-52!"
-				})) : (M(), d("code", eu, z(e.userId ?? "—"), 1))])]), f("div", tu, [n[1] ||= f("dt", { class: "shrink-0 sm:w-20 text-sm font-semibold uppercase tracking-wide text-muted select-none" }, " Email ", -1), f("dd", nu, [e.isLoading ? (M(), l(r, {
+				})) : (M(), d("code", $l, z(e.userId ?? "—"), 1))])]), f("div", eu, [n[1] ||= f("dt", { class: "shrink-0 sm:w-20 text-sm font-semibold uppercase tracking-wide text-muted select-none" }, " Email ", -1), f("dd", tu, [e.isLoading ? (M(), l(r, {
 					key: 0,
 					style: { height: "1.2rem" },
 					class: "w-full sm:w-52!"
-				})) : (M(), d("span", ru, z(e.userEmail ?? "—"), 1))])])])]),
+				})) : (M(), d("span", nu, z(e.userEmail ?? "—"), 1))])])])]),
 				_: 3
 			});
 		};
@@ -8388,13 +8388,13 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 });
 //#endregion
 //#region node_modules/@nuxt/ui/dist/runtime/utils/form.js
-function au(e) {
+function iu(e) {
 	return "schema" in e && typeof e.coercer == "function" && typeof e.validator == "function" && typeof e.refiner == "function";
 }
-function ou(e) {
+function au(e) {
 	return "~standard" in e;
 }
-async function su(e, t) {
+async function ou(e, t) {
 	let n = await t["~standard"].validate(e);
 	return n.issues ? {
 		errors: n.issues?.map((e) => ({
@@ -8407,7 +8407,7 @@ async function su(e, t) {
 		result: n.value
 	};
 }
-async function cu(e, t) {
+async function su(e, t) {
 	let [n, r] = t.validate(e);
 	return n ? {
 		errors: n.failures().map((e) => ({
@@ -8420,15 +8420,15 @@ async function cu(e, t) {
 		result: r
 	};
 }
-function lu(e, t) {
-	if (ou(t)) return su(e, t);
-	if (au(t)) return cu(e, t);
+function cu(e, t) {
+	if (au(t)) return ou(e, t);
+	if (iu(t)) return su(e, t);
 	throw Error("Form validation failed: Unsupported form schema");
 }
-function uu(e, t) {
+function lu(e, t) {
 	return t ? t.split(".").reduce((e, t) => e?.[t], e) : e;
 }
-function du(e, t, n) {
+function uu(e, t, n) {
 	if (!t) return Object.assign(e, n);
 	if (!e) return e;
 	let r = t.split("."), i = e;
@@ -8441,13 +8441,13 @@ function du(e, t, n) {
 }
 //#endregion
 //#region node_modules/@nuxt/ui/dist/runtime/types/form.js
-var fu = class e extends Error {
+var du = class e extends Error {
 	formId;
 	errors;
 	constructor(t, n) {
 		super("Form validation exception"), this.formId = t, this.errors = n, Object.setPrototypeOf(this, e.prototype);
 	}
-}, pu = { base: "" }, mu = {
+}, fu = { base: "" }, pu = {
 	__name: "Form",
 	props: {
 		id: {
@@ -8520,9 +8520,9 @@ var fu = class e extends Error {
 	emits: ["submit", "error"],
 	setup(e, { expose: t, emit: n }) {
 		let r = e, i = n, a = yr("form", r), o = q(), s = c(() => $({
-			extend: pu,
+			extend: fu,
 			...o.ui?.form || {}
-		})), u = a.id ?? pe(), d = ge("formRef"), f = /* @__PURE__ */ ct(`form-${u}`), p = a.nested === !0 && C(Xo, void 0), m = a.nested === !0 ? C(Zo, void 0) : void 0, h = c(() => m?.value ? a.name ? uu(m.value, a.name) : m.value : a.state);
+		})), u = a.id ?? pe(), d = ge("formRef"), f = /* @__PURE__ */ ct(`form-${u}`), p = a.nested === !0 && C(Xo, void 0), m = a.nested === !0 ? C(Zo, void 0) : void 0, h = c(() => m?.value ? a.name ? lu(m.value, a.name) : m.value : a.state);
 		N(Xo, f), N(Zo, h);
 		let g = F(/* @__PURE__ */ new Map());
 		A(async () => {
@@ -8570,7 +8570,7 @@ var fu = class e extends Error {
 		async function T() {
 			let e = a.validate ? await a.validate(h.value) ?? [] : [];
 			if (a.schema) {
-				let { errors: t, result: n } = await lu(h.value, a.schema);
+				let { errors: t, result: n } = await cu(h.value, a.schema);
 				t ? e = e.concat(t) : w.value = n;
 			}
 			return S(e);
@@ -8588,10 +8588,10 @@ var fu = class e extends Error {
 			let i = [...await T(), ...r];
 			if (t ? _.value = ce(i, t) : _.value = i, _.value?.length) {
 				if (e.silent) return !1;
-				throw new fu(u, _.value);
+				throw new du(u, _.value);
 			}
 			return e.transform ? (n.forEach((e) => {
-				e.name ? du(w.value, e.name, e.output) : Object.assign(w.value, e.output);
+				e.name ? uu(w.value, e.name, e.output) : Object.assign(w.value, e.output);
 			}), w.value ?? h.value) : h.value;
 		}
 		let k = F(!1);
@@ -8605,7 +8605,7 @@ var fu = class e extends Error {
 					transform: a.transform
 				}), await a.onSubmit?.(t), y.clear();
 			} catch (e) {
-				if (!(e instanceof fu)) throw e;
+				if (!(e instanceof du)) throw e;
 				let n = {
 					...t,
 					errors: e.errors
@@ -8631,7 +8631,7 @@ var fu = class e extends Error {
 					output: n
 				};
 			} catch (t) {
-				if (!(t instanceof fu)) throw t;
+				if (!(t instanceof du)) throw t;
 				return {
 					name: e.name,
 					error: t
@@ -8733,7 +8733,7 @@ var fu = class e extends Error {
 			"class"
 		]));
 	}
-}, hu = {
+}, mu = {
 	slots: {
 		root: "",
 		wrapper: "",
@@ -8760,7 +8760,7 @@ var fu = class e extends Error {
 		}
 	},
 	defaultVariants: { size: "xl" }
-}, gu = ["id"], _u = ["id"], vu = ["id"], yu = ["id"], bu = {
+}, hu = ["id"], gu = ["id"], _u = ["id"], vu = ["id"], yu = {
 	__name: "FormField",
 	props: {
 		as: {
@@ -8828,7 +8828,7 @@ var fu = class e extends Error {
 	},
 	setup(e) {
 		let t = e, n = he(), r = yr("formField", t), i = q(), a = c(() => $({
-			extend: hu,
+			extend: mu,
 			...i.ui?.formField || {}
 		})({
 			size: r.size,
@@ -8876,22 +8876,22 @@ var fu = class e extends Error {
 				id: `${V(g)}-hint`,
 				"data-slot": "hint",
 				class: O(a.value.hint({ class: V(r).ui?.hint }))
-			}, [L(e.$slots, "hint", { hint: V(r).hint }, () => [m(z(V(r).hint), 1)])], 10, gu)) : u("", !0)], 2)) : u("", !0), V(r).description || n.description ? (M(), d("p", {
+			}, [L(e.$slots, "hint", { hint: V(r).hint }, () => [m(z(V(r).hint), 1)])], 10, hu)) : u("", !0)], 2)) : u("", !0), V(r).description || n.description ? (M(), d("p", {
 				key: 1,
 				id: `${V(g)}-description`,
 				"data-slot": "description",
 				class: O(a.value.description({ class: V(r).ui?.description }))
-			}, [L(e.$slots, "description", { description: V(r).description }, () => [m(z(V(r).description), 1)])], 10, _u)) : u("", !0)], 2), f("div", { class: O([(V(r).label || !!n.label || V(r).description || !!n.description) && a.value.container({ class: V(r).ui?.container })]) }, [L(e.$slots, "default", { error: s.value }), V(r).error !== !1 && (typeof s.value == "string" && s.value || n.error) ? (M(), d("div", {
+			}, [L(e.$slots, "description", { description: V(r).description }, () => [m(z(V(r).description), 1)])], 10, gu)) : u("", !0)], 2), f("div", { class: O([(V(r).label || !!n.label || V(r).description || !!n.description) && a.value.container({ class: V(r).ui?.container })]) }, [L(e.$slots, "default", { error: s.value }), V(r).error !== !1 && (typeof s.value == "string" && s.value || n.error) ? (M(), d("div", {
 				key: 0,
 				id: `${V(g)}-error`,
 				"data-slot": "error",
 				class: O(a.value.error({ class: V(r).ui?.error }))
-			}, [L(e.$slots, "error", { error: s.value }, () => [m(z(s.value), 1)])], 10, vu)) : V(r).help || n.help ? (M(), d("div", {
+			}, [L(e.$slots, "error", { error: s.value }, () => [m(z(s.value), 1)])], 10, _u)) : V(r).help || n.help ? (M(), d("div", {
 				key: 1,
 				id: `${V(g)}-help`,
 				"data-slot": "help",
 				class: O(a.value.help({ class: V(r).ui?.help }))
-			}, [L(e.$slots, "help", { help: V(r).help }, () => [m(z(V(r).help), 1)])], 10, yu)) : u("", !0)], 2)]),
+			}, [L(e.$slots, "help", { help: V(r).help }, () => [m(z(V(r).help), 1)])], 10, vu)) : u("", !0)], 2)]),
 			_: 3
 		}, 8, [
 			"as",
@@ -8899,7 +8899,7 @@ var fu = class e extends Error {
 			"class"
 		]));
 	}
-}, xu = {
+}, bu = {
 	slots: {
 		root: "relative inline-flex items-center",
 		base: ["w-full rounded-md border-0 appearance-none placeholder:text-dimmed disabled:cursor-not-allowed disabled:opacity-75", "transition-colors"],
@@ -9179,7 +9179,7 @@ var fu = class e extends Error {
 		color: "primary",
 		variant: "outline"
 	}
-}, Su = [
+}, xu = [
 	"id",
 	"type",
 	"value",
@@ -9188,7 +9188,7 @@ var fu = class e extends Error {
 	"disabled",
 	"required",
 	"autocomplete"
-], Cu = /*@__PURE__*/ Object.assign({ inheritAttrs: !1 }, {
+], Su = /*@__PURE__*/ Object.assign({ inheritAttrs: !1 }, {
 	__name: "Input",
 	props: {
 		as: {
@@ -9314,7 +9314,7 @@ var fu = class e extends Error {
 	],
 	setup(e, { expose: t, emit: n }) {
 		let r = e, i = n, a = he(), o = yr("input", r), s = lt(o, "modelValue", i, { defaultValue: o.defaultValue }), p = q(), { emitFormBlur: m, emitFormInput: h, emitFormChange: g, size: _, color: v, id: y, name: b, highlight: x, disabled: S, emitFormFocus: C, ariaAttrs: w } = rs(r, { deferInputValidation: !0 }), { orientation: T, size: D } = xr(r), { isLeading: k, isTrailing: ee, leadingIconName: te, trailingIconName: j } = Jo(o), re = c(() => v.value ?? o.color), N = c(() => x.value ?? o.highlight), P = c(() => D.value ?? _.value ?? o.size), ie = c(() => S.value ?? o.disabled), F = c(() => $({
-			extend: xu,
+			extend: bu,
 			...p.ui?.input || {}
 		})({
 			type: o.type,
@@ -9376,7 +9376,7 @@ var fu = class e extends Error {
 					onBlur: z,
 					onChange: R,
 					onFocus: t[0] ||= (...e) => V(C) && V(C)(...e)
-				}), null, 16, Su),
+				}), null, 16, xu),
 				L(e.$slots, "default", { ui: F.value }),
 				V(k) || V(o).avatar || a.leading ? (M(), d("span", {
 					key: 0,
@@ -9412,19 +9412,19 @@ var fu = class e extends Error {
 			"class"
 		]));
 	}
-}), wu = { class: "flex flex-col items-center gap-4 text-center" }, Tu = { class: "border-2 rounded-full p-4 text-primary" }, Eu = { class: "flex flex-col gap-2" }, Du = /* @__PURE__ */ _({
+}), Cu = { class: "flex flex-col items-center gap-4 text-center" }, wu = { class: "border-2 rounded-full p-4 text-primary" }, Tu = { class: "flex flex-col gap-2" }, Eu = /* @__PURE__ */ _({
 	__name: "ActionConfirmMsg",
 	props: { icon: {} },
 	setup(e) {
 		return (t, n) => {
 			let r = qc;
-			return M(), d("div", wu, [f("div", Tu, [h(r, {
+			return M(), d("div", Cu, [f("div", wu, [h(r, {
 				name: e.icon,
 				class: "size-5"
-			}, null, 8, ["name"])]), f("div", Eu, [L(t.$slots, "default")])]);
+			}, null, 8, ["name"])]), f("div", Tu, [L(t.$slots, "default")])]);
 		};
 	}
-}), Ou = { class: "heading-lg heading-mb-sm" }, ku = { key: 0 }, Au = { class: "text-primary break-all px-2" }, ju = /* @__PURE__ */ _({
+}), Du = { class: "heading-lg heading-mb-sm" }, Ou = { key: 0 }, ku = { class: "text-primary break-all px-2" }, Au = /* @__PURE__ */ _({
 	__name: "ChangeEmailRequest",
 	props: {
 		isEmailSent: { type: Boolean },
@@ -9442,21 +9442,21 @@ var fu = class e extends Error {
 			s.value = e.data.email, r("requestEmailChange", { email: e.data.email });
 		}
 		return (e, n) => {
-			let r = Cu, i = bu, u = il, p = mu, m = Dl;
+			let r = Su, i = yu, u = il, p = pu, m = Dl;
 			return M(), l(m, null, {
-				header: U(() => [L(e.$slots, "header", {}, () => [f("h2", Ou, z(t.headingText), 1)])]),
-				default: U(() => [t.isEmailSent ? (M(), l(Du, {
+				header: U(() => [L(e.$slots, "header", {}, () => [f("h2", Du, z(t.headingText), 1)])]),
+				default: U(() => [t.isEmailSent ? (M(), l(Eu, {
 					key: 1,
 					icon: "i-lucide-mail",
 					class: "w-full max-w-lg mx-auto"
 				}, {
 					default: U(() => [f("p", null, [
 						n[2] ||= f("span", { class: "block text-wrap" }, "We have sent a verification email to:", -1),
-						f("strong", Au, z(s.value), 1),
+						f("strong", ku, z(s.value), 1),
 						n[3] ||= f("span", { class: "block mt-8" }, " Please check the inbox of your new email and click on the verification link to change your email. ", -1)
 					])]),
 					_: 1
-				})) : (M(), d("div", ku, [h(p, {
+				})) : (M(), d("div", Ou, [h(p, {
 					schema: V(a),
 					state: o,
 					class: "vstack-form",
@@ -9490,10 +9490,10 @@ var fu = class e extends Error {
 			});
 		};
 	}
-}), Mu = { class: "heading-lg heading-mb-sm" }, Nu = {
+}), ju = { class: "heading-lg heading-mb-sm" }, Mu = {
 	key: 0,
 	class: "vstack-form"
-}, Pu = /* @__PURE__ */ _({
+}, Nu = /* @__PURE__ */ _({
 	__name: "DeleteAccountRequest",
 	props: {
 		isDeleteEmailSent: { type: Boolean },
@@ -9512,14 +9512,14 @@ var fu = class e extends Error {
 		return (t, r) => {
 			let a = il, o = Dl;
 			return M(), l(o, null, {
-				header: U(() => [L(t.$slots, "header", {}, () => [f("h2", Mu, z(e.headingText), 1)])]),
-				default: U(() => [n.isDeleteEmailSent ? (M(), l(Du, {
+				header: U(() => [L(t.$slots, "header", {}, () => [f("h2", ju, z(e.headingText), 1)])]),
+				default: U(() => [n.isDeleteEmailSent ? (M(), l(Eu, {
 					key: 1,
 					icon: "i-lucide-mail"
 				}, {
 					default: U(() => [...r[1] ||= [f("p", null, " We have sent you an email to verify your account deletion. Please check your inbox and click on the verification link. ", -1)]]),
 					_: 1
-				})) : (M(), d("div", Nu, [r[0] ||= f("p", null, " You will receive an email to verify your account deletion. Please click on the email link to delete your account. ", -1), h(a, {
+				})) : (M(), d("div", Mu, [r[0] ||= f("p", null, " You will receive an email to verify your account deletion. Please click on the email link to delete your account. ", -1), h(a, {
 					label: "Send deletion email",
 					type: "button",
 					block: "",
@@ -9530,13 +9530,13 @@ var fu = class e extends Error {
 			});
 		};
 	}
-}), Fu = { class: "gsi-material-button-content-wrapper" }, Iu = { class: "gsi-material-button-icon" }, Lu = {
+}), Pu = { class: "gsi-material-button-content-wrapper" }, Fu = { class: "gsi-material-button-icon" }, Iu = {
 	version: "1.1",
 	xmlns: "http://www.w3.org/2000/svg",
 	viewBox: "0 0 48 48",
 	"xmlns:xlink": "http://www.w3.org/1999/xlink",
 	style: { display: "block" }
-}, Ru = { class: "gsi-material-button-contents" }, zu = { style: { display: "none" } }, Bu = /*#__PURE__*/ ml(/* @__PURE__ */ _({
+}, Lu = { class: "gsi-material-button-contents" }, Ru = { style: { display: "none" } }, zu = /*#__PURE__*/ ml(/* @__PURE__ */ _({
 	__name: "GoogleAuthIcon",
 	props: { authType: { default: "sign-in" } },
 	emits: ["signInClick"],
@@ -9544,16 +9544,16 @@ var fu = class e extends Error {
 		return (t, n) => (M(), d("button", {
 			class: "gsi-material-button",
 			onClick: n[0] ||= (e) => t.$emit("signInClick")
-		}, [n[2] ||= f("div", { class: "gsi-material-button-state" }, null, -1), f("div", Fu, [
-			f("div", Iu, [(M(), d("svg", Lu, [...n[1] ||= [p("<path fill=\"#EA4335\" d=\"M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z\" data-v-7459e8e5></path><path fill=\"#4285F4\" d=\"M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z\" data-v-7459e8e5></path><path fill=\"#FBBC05\" d=\"M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z\" data-v-7459e8e5></path><path fill=\"#34A853\" d=\"M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z\" data-v-7459e8e5></path><path fill=\"none\" d=\"M0 0h48v48H0z\" data-v-7459e8e5></path>", 5)]]))]),
-			f("span", Ru, z(e.authType === "sign-up" ? "Sign Up" : "Sign In") + " with Google ", 1),
-			f("span", zu, z(e.authType === "sign-up" ? "Sign Up" : "Sign In") + " with Google ", 1)
+		}, [n[2] ||= f("div", { class: "gsi-material-button-state" }, null, -1), f("div", Pu, [
+			f("div", Fu, [(M(), d("svg", Iu, [...n[1] ||= [p("<path fill=\"#EA4335\" d=\"M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z\" data-v-7459e8e5></path><path fill=\"#4285F4\" d=\"M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z\" data-v-7459e8e5></path><path fill=\"#FBBC05\" d=\"M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z\" data-v-7459e8e5></path><path fill=\"#34A853\" d=\"M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z\" data-v-7459e8e5></path><path fill=\"none\" d=\"M0 0h48v48H0z\" data-v-7459e8e5></path>", 5)]]))]),
+			f("span", Lu, z(e.authType === "sign-up" ? "Sign Up" : "Sign In") + " with Google ", 1),
+			f("span", Ru, z(e.authType === "sign-up" ? "Sign Up" : "Sign In") + " with Google ", 1)
 		])]));
 	}
-}), [["__scopeId", "data-v-7459e8e5"]]), Vu = { class: "heading-xl heading-mb-sm" }, Hu = {
+}), [["__scopeId", "data-v-7459e8e5"]]), Bu = { class: "heading-xl heading-mb-sm" }, Vu = {
 	key: 0,
 	class: "flex items-center my-10"
-}, Uu = /* @__PURE__ */ _({
+}, Hu = /* @__PURE__ */ _({
 	__name: "SignInUpForm",
 	props: {
 		title: { default: "Sign in" },
@@ -9573,13 +9573,13 @@ var fu = class e extends Error {
 			s.value = !0;
 		}
 		return (e, n) => {
-			let i = Cu, m = bu, g = il, _ = mu, v = Dl;
+			let i = Su, m = yu, g = il, _ = pu, v = Dl;
 			return M(), l(v, { class: "max-w-xl w-full" }, {
-				header: U(() => [f("h1", Vu, z(t.title), 1)]),
+				header: U(() => [f("h1", Bu, z(t.title), 1)]),
 				default: U(() => [
 					L(e.$slots, "notice"),
 					L(e.$slots, "oauth-providers"),
-					r["oauth-providers"] ? (M(), d("div", Hu, [...n[1] ||= [
+					r["oauth-providers"] ? (M(), d("div", Vu, [...n[1] ||= [
 						f("hr", { class: "flex-1 border-default" }, null, -1),
 						f("span", { class: "px-4 text-muted uppercase" }, "Or", -1),
 						f("hr", { class: "flex-1 border-default" }, null, -1)
@@ -9620,7 +9620,7 @@ var fu = class e extends Error {
 			});
 		};
 	}
-}), Wu = {
+}), Uu = {
 	slots: {
 		root: "flex items-center align-center text-center",
 		border: "",
@@ -9757,7 +9757,7 @@ var fu = class e extends Error {
 		size: "xs",
 		type: "solid"
 	}
-}, Gu = /*@__PURE__*/ Object.assign({ inheritAttrs: !1 }, {
+}, Wu = /*@__PURE__*/ Object.assign({ inheritAttrs: !1 }, {
 	__name: "Separator",
 	props: {
 		as: {
@@ -9813,7 +9813,7 @@ var fu = class e extends Error {
 	},
 	setup(e) {
 		let t = e, n = he(), i = yr("separator", t), a = q(), o = Jn(Je(i, "as", "decorative", "orientation")), [s, p] = Qe(), m = c(() => !!(i.label || i.icon || i.avatar || n.default)), g = c(() => $({
-			extend: Wu,
+			extend: Uu,
 			...a.ui?.separator || {}
 		})({
 			color: i.color,
@@ -9862,7 +9862,7 @@ var fu = class e extends Error {
 			_: 1
 		}, 16, ["class"])], 64));
 	}
-}), Ku = {
+}), Gu = {
 	slots: {
 		root: "relative inline-flex items-center gap-1.5",
 		base: ["rounded-md border-0 placeholder:text-dimmed text-center disabled:cursor-not-allowed disabled:opacity-75", "transition-colors"],
@@ -10027,7 +10027,7 @@ var fu = class e extends Error {
 		color: "primary",
 		variant: "outline"
 	}
-}, qu = {
+}, Ku = {
 	__name: "PinInput",
 	props: {
 		as: {
@@ -10130,7 +10130,7 @@ var fu = class e extends Error {
 	],
 	setup(e, { expose: t, emit: n }) {
 		let i = e, a = n, o = yr("pinInput", i), s = q(), f = Jn(Je(o, "disabled", "id", "mask", "name", "otp", "required", "type"), a), { emitFormInput: p, emitFormFocus: g, emitFormChange: _, emitFormBlur: v, size: y, color: b, id: x, name: S, highlight: C, disabled: w, ariaAttrs: T } = rs(i), D = c(() => b.value ?? o.color), k = c(() => C.value ?? o.highlight), ee = c(() => y.value ?? o.size), te = c(() => w.value ?? o.disabled), j = c(() => $({
-			extend: Ku,
+			extend: Gu,
 			...s.ui?.pinInput || {}
 		})({
 			color: D.value,
@@ -10210,7 +10210,7 @@ var fu = class e extends Error {
 			"class"
 		]));
 	}
-}, Ju = { class: "px-4 py-8 sm:p-8" }, Yu = { class: "max-w-xl mx-auto mb-2" }, Xu = { class: "heading-lg heading-mb-sm" }, Zu = { class: "vstack-form" }, Qu = { class: "flex justify-center sm:justify-start" }, $u = { class: "vstack-form" }, ed = /* @__PURE__ */ _({
+}, qu = { class: "px-4 py-8 sm:p-8" }, Ju = { class: "max-w-xl mx-auto mb-2" }, Yu = { class: "heading-lg heading-mb-sm" }, Xu = { class: "vstack-form" }, Zu = { class: "flex justify-center sm:justify-start" }, Qu = { class: "vstack-form" }, $u = /* @__PURE__ */ _({
 	__name: "SignInUpVerifyCode",
 	props: {
 		title: { default: "Input validation code" },
@@ -10236,8 +10236,8 @@ var fu = class e extends Error {
 			n("restartFlow");
 		}
 		return (t, n) => {
-			let r = il, a = qu, o = bu, s = Gu, c = Dl;
-			return M(), d("div", Ju, [f("div", Yu, [h(r, {
+			let r = il, a = Ku, o = yu, s = Wu, c = Dl;
+			return M(), d("div", qu, [f("div", Ju, [h(r, {
 				type: "button",
 				variant: "ghost",
 				icon: "i-lucide-arrow-left",
@@ -10246,19 +10246,19 @@ var fu = class e extends Error {
 				"data-test": "auth-change-email",
 				onClick: g
 			})]), h(c, { class: "max-w-xl w-full mx-auto" }, {
-				header: U(() => [f("h1", Xu, z(e.title), 1)]),
+				header: U(() => [f("h1", Yu, z(e.title), 1)]),
 				default: U(() => [f("form", {
 					class: "vstack-md",
-					onSubmit: n[1] ||= xe(() => {}, ["prevent"])
+					onSubmit: xe(p, ["prevent"])
 				}, [
-					f("div", Zu, [
+					f("div", Xu, [
 						L(t.$slots, "description"),
 						h(o, {
 							class: "mb-4",
 							error: u.value ? l.value : "",
 							"data-test": "auth-error-message"
 						}, {
-							default: U(() => [f("div", Qu, [h(a, {
+							default: U(() => [f("div", Zu, [h(a, {
 								id: "magic-code-input",
 								modelValue: i.value,
 								"onUpdate:modelValue": n[0] ||= (e) => i.value = e,
@@ -10275,12 +10275,11 @@ var fu = class e extends Error {
 							type: "submit",
 							loading: e.isSubmittingCode,
 							disabled: e.isResendingCode,
-							"data-test": "auth-verify-button",
-							onClick: p
+							"data-test": "auth-verify-button"
 						}, null, 8, ["loading", "disabled"])
 					]),
 					h(s),
-					f("div", $u, [L(t.$slots, "resend-description"), h(r, {
+					f("div", Qu, [L(t.$slots, "resend-description"), h(r, {
 						class: "w-full sm:w-fit",
 						label: "Resend code",
 						variant: "outline",
@@ -10297,4 +10296,4 @@ var fu = class e extends Error {
 	}
 });
 //#endregion
-export { Du as ActionConfirmMsg, jl as AppErrorInfo, ju as ChangeEmailRequest, Pu as DeleteAccountRequest, Kl as DialogLoader, Bu as GoogleAuthIcon, Yl as InputSkeleton, yl as PageErrorIcon, Bl as PageInfiniteLoader, Rl as PageLoader, hl as ScrollToTop, Tl as SectionPattern, Uu as SignInUpForm, ed as SignInUpVerifyCode, fl as SiteNavigation, iu as UserAccountInfo };
+export { Eu as ActionConfirmMsg, jl as AppErrorInfo, Au as ChangeEmailRequest, Nu as DeleteAccountRequest, Gl as DialogLoader, zu as GoogleAuthIcon, Jl as InputSkeleton, yl as PageErrorIcon, Bl as PageInfiniteLoader, Rl as PageLoader, hl as ScrollToTop, Tl as SectionPattern, Hu as SignInUpForm, $u as SignInUpVerifyCode, fl as SiteNavigation, ru as UserAccountInfo };

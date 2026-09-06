@@ -1,20 +1,18 @@
 <template>
-   <div class="dialog-loader">
-      <UModal
-         :open="visible"
-         :title="headerText"
-         :close="false"
-         :dismissible="false"
-         :ui="{ overlay: 'bg-black/90' }"
-      >
-         <template #body>
-            <div class="flex flex-col justify-center">
-               <UIcon name="i-lucide-loader-circle" class="size-8 animate-spin mx-auto" />
-               <div v-if="loadingText" class="mt-8 text-center">{{ loadingText }}</div>
-            </div>
-         </template>
-      </UModal>
-   </div>
+   <UModal
+      :open="visible"
+      :title="headerText"
+      :close="false"
+      :dismissible="false"
+      :ui="{ overlay: 'bg-black/90' }"
+   >
+      <template #body>
+         <div class="flex flex-col justify-center">
+            <UIcon name="i-lucide-loader-circle" class="size-8 animate-spin mx-auto" />
+            <div v-if="loadingText" class="mt-8 text-center">{{ loadingText }}</div>
+         </div>
+      </template>
+   </UModal>
 </template>
 
 <script setup lang="ts">

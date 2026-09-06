@@ -466,7 +466,20 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{ pattern?: string }>()
+export type SectionPatternName =
+   | "grid-orbs"
+   | "aurora"
+   | "topographic"
+   | "rays"
+   | "noise"
+   | "geometric"
+   | "synthwave"
+   | "diagonal"
+   | "dots"
+   | "scanlines"
+   | "mesh"
+
+defineProps<{ pattern?: SectionPatternName }>()
 </script>
 
 <style scoped>

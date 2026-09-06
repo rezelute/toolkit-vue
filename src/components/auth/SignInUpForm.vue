@@ -1,7 +1,7 @@
 <template>
    <UCard class="max-w-xl w-full">
       <template #header>
-         <h1 class="heading-xl heading-mb-sm">
+         <h1 class="heading-lg heading-mb-sm">
             {{ title }}
          </h1>
       </template>

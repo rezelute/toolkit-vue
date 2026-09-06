@@ -7579,8 +7579,8 @@ var Xc = {
 			n.value = !1;
 		}
 		let a = c(() => [
-			t.position === "fixed" && "fixed top-0 left-0 right-0 z-50",
-			t.position === "sticky" && "sticky top-0 z-50",
+			t.position === "fixed" && "fixed top-0 left-0 right-0 z-header",
+			t.position === "sticky" && "sticky top-0 z-header",
 			t.position === "static" && "relative",
 			t.navHeight,
 			t.frosted ? "bg-default/80 backdrop-blur-md" : "bg-default",
@@ -7611,8 +7611,8 @@ var Xc = {
 					side: "right",
 					"aria-label": "Navigation menu panel",
 					ui: {
-						overlay: "z-[60]",
-						content: `${e.drawerWidth} z-[60]`
+						overlay: "z-drawer",
+						content: `${e.drawerWidth} z-drawer`
 					}
 				}, {
 					header: U(() => [L(t.$slots, "drawer-logo"), h(l, {
@@ -7663,7 +7663,7 @@ var Xc = {
 	let n = e.__vccOpts || e;
 	for (let [e, r] of t) n[e] = r;
 	return n;
-}, hl = /*#__PURE__*/ ml(pl, [["__scopeId", "data-v-8124fde5"]]), gl = {}, _l = {
+}, hl = /*#__PURE__*/ ml(pl, [["__scopeId", "data-v-dade3d6c"]]), gl = {}, _l = {
 	x: "0px",
 	y: "0px",
 	viewBox: "0 0 500 450",
@@ -7997,18 +7997,18 @@ var yl = /*#__PURE__*/ ml(gl, [["render", vl]]), bl = { class: "absolute inset-0
 	__name: "PageInfiniteLoader",
 	props: {
 		isLoading: { type: Boolean },
-		color: { default: "#35a626" },
+		color: { default: "var(--ui-primary)" },
 		height: { default: "5px" }
 	},
 	setup(e) {
 		fe((e) => ({
-			v127b1966: t.height,
-			v31e32344: t.color
+			v11b1c6d9: t.height,
+			c591091e: t.color
 		}));
 		let t = e;
 		return (t, n) => e.isLoading ? (M(), d("div", zl, [...n[0] ||= [f("div", null, null, -1)]])) : u("", !0);
 	}
-}), [["__scopeId", "data-v-bacfecf1"]]), Vl = {
+}), [["__scopeId", "data-v-be830121"]]), Vl = {
 	slots: {
 		overlay: "fixed inset-0",
 		content: "bg-default divide-y divide-default flex flex-col focus:outline-none",
@@ -9550,7 +9550,7 @@ var du = class e extends Error {
 			f("span", Ru, z(e.authType === "sign-up" ? "Sign Up" : "Sign In") + " with Google ", 1)
 		])]));
 	}
-}), [["__scopeId", "data-v-7459e8e5"]]), Bu = { class: "heading-xl heading-mb-sm" }, Vu = {
+}), [["__scopeId", "data-v-7459e8e5"]]), Bu = { class: "heading-lg heading-mb-sm" }, Vu = {
 	key: 0,
 	class: "flex items-center my-10"
 }, Hu = /* @__PURE__ */ _({

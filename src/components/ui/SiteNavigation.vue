@@ -30,10 +30,11 @@
       side="right"
       aria-label="Navigation menu panel"
       :ui="{
-         // USlideover sets no z-index of its own, so our header's z-50 above was winning the
-         // stacking order and covering the drawer wherever they overlap. Push above it.
-         overlay: 'z-[60]',
-         content: `${drawerWidth} z-[60]`,
+         // USlideover sets no z-index of its own, so our header's z-header above was winning
+         // the stacking order and covering the drawer wherever they overlap. z-drawer is the
+         // next tier up in the shared stacking scale — see tokens.css.
+         overlay: 'z-drawer',
+         content: `${drawerWidth} z-drawer`,
       }"
    >
       <template #header>
@@ -118,8 +119,8 @@ function closeDrawer() {
 
 const headerClasses = computed(() => [
    // Positioning
-   props.position === "fixed" && "fixed top-0 left-0 right-0 z-50",
-   props.position === "sticky" && "sticky top-0 z-50",
+   props.position === "fixed" && "fixed top-0 left-0 right-0 z-header",
+   props.position === "sticky" && "sticky top-0 z-header",
    props.position === "static" && "relative",
 
    props.navHeight,

@@ -12,7 +12,7 @@ const props = withDefaults(
       height?: string
    }>(),
    {
-      color: "#35a626", // default to a green color
+      color: "var(--ui-primary)", // defaults to the theme's primary color, so a consumer's --ui-primary override cascades here too
       height: "5px",
    }
 )
@@ -27,7 +27,7 @@ const props = withDefaults(
    height: v-bind("props.height");
    background: transparent;
    overflow: hidden;
-   z-index: 9999;
+   z-index: var(--z-loading-bar);
 }
 .bar div:before {
    content: "";

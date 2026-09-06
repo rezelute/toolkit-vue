@@ -33,6 +33,21 @@
    gap: var(--spacing-stack-form);
 }
 
+/* Z-index */
+/*-------------------*/
+@utility z-header {
+   z-index: var(--z-header);
+}
+@utility z-drawer {
+   z-index: var(--z-drawer);
+}
+@utility z-fab {
+   z-index: var(--z-fab);
+}
+@utility z-loading-bar {
+   z-index: var(--z-loading-bar);
+}
+
 /* Heading */
 /*-------------------*/
 /* Size/weight/tracking only — no margin baked in, see heading-mb-* below. Tree-shaken like

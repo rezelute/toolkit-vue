@@ -3,7 +3,11 @@
 @theme {
    /* Tailwind's own multiplier - drives p-4, gap-2, etc. Untouched. */
    --spacing: 0.25rem;
+}
 
+/* Plain :root, not TW theme - these key names (sm/md/lg/xl/2xl) collide with Tailwind's own
+--container-* namespace otherwise, silently hijacking max-w-md and friends. */
+:root {
    --spacing-3xs: 0.25rem; /* 4px  */
    --spacing-2xs: 0.5rem; /* 8px  */
    --spacing-xs: 0.75rem; /* 12px */

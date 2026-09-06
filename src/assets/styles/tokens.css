@@ -23,13 +23,23 @@
    --spacing-heading-mb-lg: var(--spacing-md); /* heading-2xl - page title, more breathing room */
 }
 
+/* -- Z-INDEX ---------------------- */
+
+/* Shared stacking order so fixed/sticky/overlay elements don't collide (low to high). */
+
+@theme {
+   --z-header: 50; /* Fixed/sticky site header */
+   --z-drawer: 60; /* Slide-over drawers/menus — above the header */
+   --z-fab: 1000; /* Floating action buttons */
+   --z-loading-bar: 9999; /* App-wide top loading bar — above everything, incl. modals */
+}
+
 /* -- TYPOGRAPHY ---------------------- */
 
 /* Heading size/weight/tracking, named by visual size rather than HTML heading level —
    decouples "how big it looks" from "which <h> tag is correct for the document outline".
-   Each size's mobile value sits in @theme; the @media block right after it overrides just
-   size/line-height for the desktop step (can't live inside @theme itself — that's a
-   build-time directive, not one that can be scoped to a media query). */
+   Each size's mobile value sits in @theme; the @variant md block overrides just size/line-height
+   for the desktop step, tied to Tailwind's real `md` breakpoint instead of a hardcoded value. */
 
 @theme {
    --heading-2xl-size: var(--text-2xl);
@@ -37,8 +47,8 @@
    --heading-2xl-weight: var(--font-weight-semibold);
    --heading-2xl-tracking: var(--tracking-tight);
 }
-@media (min-width: 48rem) {
-   :root {
+:root {
+   @variant md {
       --heading-2xl-size: var(--text-4xl);
       --heading-2xl-line-height: var(--text-4xl--line-height);
    }
@@ -50,8 +60,8 @@
    --heading-xl-weight: var(--font-weight-semibold);
    --heading-xl-tracking: var(--tracking-tight);
 }
-@media (min-width: 48rem) {
-   :root {
+:root {
+   @variant md {
       --heading-xl-size: var(--text-3xl);
       --heading-xl-line-height: var(--text-3xl--line-height);
    }
@@ -63,8 +73,8 @@
    --heading-lg-weight: var(--font-weight-medium);
    --heading-lg-tracking: var(--tracking-normal);
 }
-@media (min-width: 48rem) {
-   :root {
+:root {
+   @variant md {
       --heading-lg-size: var(--text-xl);
       --heading-lg-line-height: var(--text-xl--line-height);
    }
